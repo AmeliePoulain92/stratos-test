@@ -1,4 +1,5 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([
+window["webpackJsonp"] = window["webpackJsonp"] || []
+window["webpackJsonp"].push([
     ["chunk-vendors"], {
         "01f9": function(t, e, n) { "use strict"; var r = n("2d00"),
                 o = n("5ca1"),
