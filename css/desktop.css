@@ -1,0 +1,661 @@
+#betonfire-carousel,
+.voodoo-carousel-custom-container {
+  width: 550px;
+  height: 245px;
+}
+#betonfire-carousel .spb-slide,
+.voodoo-carousel-custom-container .spb-slide {
+  width: 550px;
+  height: 245px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: relative;
+  border-radius: 5px;
+  font-family: Jaldi;
+}
+#betonfire-carousel .spb-slide a,
+.voodoo-carousel-custom-container .spb-slide a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#betonfire-carousel .betonfire,
+.voodoo-carousel-custom-container .betonfire {
+  width: 550px;
+  height: 245px;
+  background-image: url(https://united.mediaglb.com/uploading_08_05_55/football-bg.jpg);
+  background-position: -580px 0;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: relative;
+  border-radius: 5px;
+  font-family: Jaldi;
+}
+#betonfire-carousel .betonfire:before,
+.voodoo-carousel-custom-container .betonfire:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 120px;
+  height: 28px;
+  background: url(https://united.mediaglb.com/uploading_08_05_55/betassist-h.png) left center no-repeat;
+  background-size: contain;
+}
+#betonfire-carousel .betonfire .betonfire-content .event-live-wrapper,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .event-live-wrapper {
+  display: none;
+  position: absolute;
+  left: 120px;
+  top: 10px;
+}
+#betonfire-carousel .betonfire .betonfire-content .event-live-wrapper .event-score,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .event-live-wrapper .event-score {
+  color: #fff;
+  display: inline-block;
+  font-size: 17px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+#betonfire-carousel .betonfire .betonfire-content .event-live-wrapper .event-date,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .event-live-wrapper .event-date {
+  padding: 0px 4px 0px 16px;
+  background: #fff;
+  color: #e40000;
+  border-radius: 3px;
+  font-size: 17px;
+  left: 320px;
+  height: 28px;
+  display: inline-block;
+}
+#betonfire-carousel .betonfire .betonfire-content .event-live-wrapper .event-date:after,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .event-live-wrapper .event-date:after {
+  position: absolute;
+  content: " ";
+  left: 6px;
+  top: 11px;
+  width: 6px;
+  height: 6px;
+  border-radius: 1px;
+  background: #1b7805;
+  -webkit-animation: switchColor 1s infinite linear;
+  -o-animation: switchColor 1s infinite linear;
+  animation: switchColor 1s infinite linear;
+}
+#betonfire-carousel .betonfire .betonfire-content .event-date-wrapper,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .event-date-wrapper {
+  color: #fff;
+  font-size: 15px;
+  position: absolute;
+  top: 45px;
+  left: 40px;
+  right: 40px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 19px;
+}
+#betonfire-carousel .betonfire .betonfire-content .teams,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .teams {
+  position: absolute;
+  font-weight: bold;
+  line-height: 1;
+  top: 50px;
+  left: 80px;
+  right: 80px;
+  font-size: 30px;
+  color: #fff;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: center;
+}
+#betonfire-carousel .betonfire .betonfire-content .teams:hover,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .teams:hover {
+  text-decoration: underline;
+}
+#betonfire-carousel .betonfire .betonfire-content .team-name,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .team-name {
+  position: absolute;
+  top: 73px;
+  font-size: 26px;
+  color: #fff;
+  white-space: nowrap;
+  width: 205px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#betonfire-carousel .betonfire .betonfire-content .team-name.team-a,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .team-name.team-a {
+  text-align: right;
+  left: 10px;
+}
+#betonfire-carousel .betonfire .betonfire-content .team-name.team-b,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .team-name.team-b {
+  text-align: left;
+  left: auto;
+  right: 10px;
+}
+#betonfire-carousel .betonfire .betonfire-content .team-logo,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .team-logo {
+  position: absolute;
+  top: 73px;
+  height: 45px;
+  width: 45px;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+#betonfire-carousel .betonfire .betonfire-content .team-logo.team-a,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .team-logo.team-a {
+  margin-left: -45px;
+}
+#betonfire-carousel .betonfire .betonfire-content .team-logo.team-b,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .team-logo.team-b {
+  margin-left: 5px;
+}
+#betonfire-carousel .betonfire .betonfire-content .stats,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .stats {
+  position: absolute;
+  line-height: 1.2;
+  color: #fff;
+  top: 125px;
+  left: 40px;
+  right: 40px;
+  text-align: center;
+  font-size: 17px;
+  height: 61px;
+  overflow: hidden;
+}
+#betonfire-carousel .betonfire .betonfire-content .gamedate,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .gamedate {
+  display: none;
+}
+#betonfire-carousel .betonfire .betonfire-content .bet_cta,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .bet_cta {
+  position: absolute;
+  bottom: 10px;
+  overflow: hidden;
+  line-height: 1;
+  padding: 9px;
+  background: #47a220;
+  color: #fff;
+  left: 50%;
+  margin-left: -160px;
+  width: 300px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.25s ease-in-out;
+}
+#betonfire-carousel .betonfire .betonfire-content .bet_cta:hover,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .bet_cta:hover {
+  background: #54af2d;
+}
+#betonfire-carousel .betonfire .betonfire-content .bet_cta span,
+.voodoo-carousel-custom-container .betonfire .betonfire-content .bet_cta span {
+  float: right;
+}
+#betonfire-carousel .betonfire[data-live="1"] .betonfire-content .event-live-wrapper,
+.voodoo-carousel-custom-container .betonfire[data-live="1"] .betonfire-content .event-live-wrapper {
+  display: block;
+}
+#betonfire-carousel .betonfire[data-live="1"] .betonfire-content .event-date-wrapper .event-date,
+.voodoo-carousel-custom-container .betonfire[data-live="1"] .betonfire-content .event-date-wrapper .event-date {
+  display: none;
+}
+#betonfire-carousel .owl-theme .owl-dots,
+.voodoo-carousel-custom-container .owl-theme .owl-dots {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  margin-top: 5px;
+}
+#betonfire-carousel .owl-theme .owl-dots .owl-dot span,
+.voodoo-carousel-custom-container .owl-theme .owl-dots .owl-dot span {
+  background: #fff;
+  display: block;
+  float: left;
+  height: 14px;
+  list-style-type: none;
+  margin-right: 0;
+  width: 14px;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  position: relative;
+  box-shadow: 0 0 0 2px #cf0000 inset;
+}
+#betonfire-carousel .owl-theme .owl-dots .owl-dot span:focus,
+.voodoo-carousel-custom-container .owl-theme .owl-dots .owl-dot span:focus {
+  outline: 0;
+}
+#betonfire-carousel .owl-theme .owl-dots .owl-dot.active span,
+.voodoo-carousel-custom-container .owl-theme .owl-dots .owl-dot.active span {
+  background: #cf0000;
+  height: 12px;
+  margin-right: 0;
+  width: 12px;
+  border: 2px solid #fff;
+}
+#betonfire-carousel .owl-theme .owl-dots .owl-dot.active span:focus,
+.voodoo-carousel-custom-container .owl-theme .owl-dots .owl-dot.active span:focus {
+  outline: 0;
+}
+#betonfire-carousel .owl-theme .owl-dots .owl-dot.active:focus,
+.voodoo-carousel-custom-container .owl-theme .owl-dots .owl-dot.active:focus {
+  outline: 0;
+}
+#betonfire-carousel .owl-theme .owl-dots .owl-dot:focus,
+.voodoo-carousel-custom-container .owl-theme .owl-dots .owl-dot:focus {
+  outline: 0;
+}
+
+.voodoo-loading {
+  background: rgba(0, 0, 0, 0.8);
+  position: relative;
+  height: 246px;
+}
+.voodoo-loading :before {
+  position: absolute;
+  content: " ";
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin: -35px 0 0 -35px;
+  background-size: 70px;
+  background-image: url(data:image/svg+xml;charset=UTF-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNTAiIGhlaWdodD0iMTUwIj48ZyBmaWxsPSIjYzkwMDAwIj48Y2lyY2xlIGN4PSIxMTMiIGN5PSI1MS41IiByPSIxNiIvPjxjaXJjbGUgY3g9Ijg1LjYiIGN5PSIzMSIgcj0iMTQiLz48Y2lyY2xlIGN4PSI1MS41IiBjeT0iMzYuNSIgcj0iMTIiLz48Y2lyY2xlIGN4PSIzMSIgY3k9IjY0LjUiIHI9IjEwIi8+PGNpcmNsZSBjeD0iMzYuNiIgY3k9Ijk4IiByPSI4Ii8+PGNpcmNsZSBjeD0iNjQuNSIgY3k9IjExOC41IiByPSI2Ii8+PGNpcmNsZSBjeD0iOTguNSIgY3k9IjExMyIgcj0iNCIvPjxjaXJjbGUgY3g9IjExOC41IiBjeT0iODUiIHI9IjIiLz48L2c+PC9zdmc+);
+  background-repeat: no-repeat;
+  -webkit-animation: spinnerRotate 1s infinite linear;
+  -o-animation: spinnerRotate 1s infinite linear;
+  animation: spinnerRotate 1s infinite linear;
+}
+
+.voodoo-featured-game-wrapper {
+  height: 330px;
+  width: 550px;
+  background: #fff;
+  display: block;
+  float: left;
+  margin: 10px 0;
+  border: 1px solid #939598;
+  position: relative;
+  border-radius: 5px;
+  font-family: Jaldi;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-field {
+  background: url(https://united.mediaglb.com/uploading_08_05_55/soccer-field-03-mobile.jpg) center center no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 190px;
+  border-radius: 4px 4px 0 0;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-title {
+  position: absolute;
+  left: 10px;
+  top: -4px;
+  right: 10px;
+  text-align: center;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-title span {
+  color: #fff;
+  font-weight: bold;
+  background: #363435;
+  padding: 4px 15px;
+  font-size: 18px;
+  border-radius: 2px;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-team-logo {
+  position: absolute;
+  top: 40px;
+  height: 90px;
+  width: 90px;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-team-logo.team-a {
+  left: 60px;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-team-logo.team-b {
+  right: 60px;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-team-name {
+  position: absolute;
+  top: 130px;
+  height: auto;
+  width: 150px;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  color: #fff;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-team-name.team-a {
+  left: 30px;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-team-name.team-b {
+  right: 30px;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-when-date {
+  position: absolute;
+  top: 60px;
+  height: auto;
+  width: 150px;
+  left: 50%;
+  margin-left: -75px;
+  right: auto;
+  bottom: auto;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 1;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-when-time {
+  position: absolute;
+  top: 80px;
+  height: auto;
+  width: 150px;
+  left: 50%;
+  margin-left: -75px;
+  right: auto;
+  bottom: auto;
+  color: #fff;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 1;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-moto {
+  position: absolute;
+  top: 205px;
+  height: auto;
+  left: 10px;
+  right: 10px;
+  bottom: auto;
+  color: #000;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 110px;
+  line-height: 1;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-moto:before {
+  content: " ";
+  position: absolute;
+  left: -110px;
+  top: -5px;
+  width: 110px;
+  height: 27px;
+  background: url(https://united.mediaglb.com/uploading_08_05_55/betassist-h.png) left center no-repeat;
+  background-size: contain;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-stats {
+  position: absolute;
+  top: 235px;
+  height: 35px;
+  left: 10px;
+  right: 10px;
+  bottom: auto;
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  overflow: hidden;
+  line-height: 1.1;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-cta {
+  position: absolute;
+  bottom: 10px;
+  height: auto;
+  left: 10px;
+  right: 10px;
+  top: auto;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  background: #e5e5e5;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-cta:hover {
+  background: #c5c5c5;
+  color: #000;
+}
+.voodoo-featured-game-wrapper .voodoo-featured-game-cta span {
+  float: right;
+}
+
+.outerBox.headlines {
+  display: block !important;
+}
+
+.voodoo-betonfire-assistant-wrapper {
+  display: none;
+  z-index: 999997;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-bg {
+  right: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999998;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window {
+  position: absolute;
+  width: 640px;
+  min-height: 685px;
+  left: 50%;
+  margin-left: -320px;
+  top: 100px;
+  border: 6px solid #fff;
+  border-radius: 10px;
+  background: #fff;
+  z-index: 999999;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-title-wrapper {
+  background: #e40000 url(https://united.mediaglb.com/uploading_08_05_55/betassist-h.png) left center no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 47px;
+  line-height: 47px;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-title-wrapper .close {
+  background: url(/s/images/ui/x.png) no-repeat;
+  width: 22px;
+  height: 22px;
+  margin: 13px 13px 0 0;
+  display: block;
+  float: right;
+  text-indent: -10000px;
+  outline: none;
+  cursor: pointer;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-title-wrapper .close:hover {
+  -moz-animation: spin 0.8s ease-in-out;
+  -o-animation: spin 0.8s ease-in-out;
+  -webkit-animation: spin 0.8s ease-in-out;
+  animation: spin 0.8s ease-in-out;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-content .voodoo-betonfire-assistant-selectors {
+  margin: 10px 0;
+  height: 34px;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-content .voodoo-betonfire-assistant-selectors > div {
+  width: 315px;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-content .voodoo-betonfire-assistant-selectors > div > div {
+  width: 100%;
+  margin: 0;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-content .voodoo-betonfire-assistant-selectors > div.selectLeagueSelector {
+  float: left;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-content .voodoo-betonfire-assistant-selectors > div.selectMarketSelector {
+  float: right;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-content .voodoo-betonfire-assistant-selectors > div .dd-control {
+  margin: 0 auto;
+  width: 250px;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-events .sports-menu-items__item {
+  background: #fff;
+  overflow: hidden;
+  border: 0;
+  position: relative;
+  display: block;
+  vertical-align: top;
+  border: 1px solid #c4c4c4;
+  margin-bottom: 10px;
+  height: 170px;
+  width: 49.5%;
+  float: left;
+  border-radius: 3px;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-events .sports-menu-items__item:nth-child(even) {
+  float: right;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-events .sports-menu-items__item .betonfire-content .event-date-wrapper {
+  color: #8a8a8a;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 10px;
+  font-size: 14px;
+  text-align: right;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-events .sports-menu-items__item .betonfire-content .event-date-wrapper span.event-group {
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 200px;
+  text-align: left;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-events .sports-menu-items__item .betonfire-content .teams {
+  font-weight: bold;
+  padding: 5px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  display: block;
+  color: #000;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-events .sports-menu-items__item .betonfire-content .stats {
+  white-space: normal;
+  font-size: 14px;
+  padding: 0 10px;
+  line-height: 1.1;
+  height: 46px;
+  overflow: hidden;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-events .sports-menu-items__item .betonfire-content .bet_cta {
+  height: auto;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  text-align: left;
+  background: #47a220;
+  padding: 10px 15px;
+  display: block;
+  margin: 0 10px 10px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .voodoo-betonfire-assistant-events .sports-menu-items__item .betonfire-content .bet_cta span {
+  float: right;
+}
+.voodoo-betonfire-assistant-wrapper .voodoo-betonfire-assistant-window .selectAllMarkets .bet_cta_all {
+  height: auto;
+  display: block;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  background: #47a220;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+  border-radius: 5px;
+}
+.voodoo-betonfire-assistant-wrapper .voodooConfirmation {
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.6) url(https://united.mediaglb.com/uploading_17_07_20/greencheck-128.png) no-repeat center center;
+}
+.voodoo-betonfire-assistant-wrapper .voodooConfirmation.wait {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+@-webkit-keyframes spinnerRotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spinnerRotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes switchColor {
+  0% {
+    background: #70b842;
+  }
+  50% {
+    background: #1b7805;
+  }
+  100% {
+    background: #70b842;
+  }
+}
